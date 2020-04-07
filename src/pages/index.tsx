@@ -48,15 +48,15 @@ const IndexPage: React.FunctionComponent<PageProps> = () => {
 
       <Box maxWidth="40em" mt={8} mb={12}>
         <P>
-          Keeping everyone up-to-date if you fall ill is tricky. You have to
-          remember who you met. They have to remember who they met after meeting
-          you.
+          Keeping everyone up-to-date if you fall ill is tricky. You
+          have to remember who you met. They have to remember who they
+          met after meeting you.
         </P>
         <P>
-          In one click, Contact Tracing App notifies your recent direct and
-          indirect contacts if you log that you show symptoms or test positive,
-          so everyone can act appropriately and we can help limit the spread of
-          COVID-19.
+          In one click, Contact Tracing App notifies your recent
+          direct and indirect contacts if you log that you show
+          symptoms or test positive, so everyone can act appropriately
+          and we can help limit the spread of COVID-19.
         </P>
       </Box>
 
@@ -82,17 +82,19 @@ const IndexPage: React.FunctionComponent<PageProps> = () => {
         </Heading>
         <List styleType="disc">
           <ListItem>
-            Log Contact - Digital Logbook that makes it easier to trace who you
-            met.
+            Log Contact - Digital Logbook that makes it easier to
+            trace who you met.
           </ListItem>
           <ListItem>
             Notify your loved one if you fall ill with no hassle.
           </ListItem>
           <ListItem>
-            Get notified when one of your family and friends (and their
-            contacts) shows symptoms, or tested positive.
+            Get notified when one of your family and friends (and
+            their contacts) shows symptoms, or tested positive.
           </ListItem>
-          <ListItem>Your risk level - based on contacts around you.</ListItem>
+          <ListItem>
+            Your risk level - based on contacts around you.
+          </ListItem>
         </List>
 
         <Heading as="h2" mt={12} mb={4} size="xl">
@@ -111,23 +113,26 @@ const IndexPage: React.FunctionComponent<PageProps> = () => {
             Help us spread the word
           </Heading>
           <P>
-            The more users, connections, and logging we do, the better Contact
-            Tracing will be. Help us spread the word and build and grow.
+            The more users, connections, and logging we do, the better
+            Contact Tracing will be. Help us spread the word and build
+            and grow.
           </P>
 
           <Stack mt={8} isInline>
             <Box>
               <a href="https://www.facebook.com/ContactTracingApp/">
-                {<FaFacebook />}
+                <FaFacebook />
               </a>
             </Box>
             <Box>
               <a href="https://www.instagram.com/contacttracing.app/">
-                {<FaInstagram />}
+                <FaInstagram />
               </a>
             </Box>
             <Box>
-              <a href="https://twitter.com/ContactTracing_">{<FaTwitter />}</a>
+              <a href="https://twitter.com/ContactTracing_">
+                <FaTwitter />
+              </a>
             </Box>
           </Stack>
 
@@ -153,21 +158,22 @@ const IndexPage: React.FunctionComponent<PageProps> = () => {
           Background
         </Heading>
         <P>
-          In the light of COVID-19, Michele and I have been asking each other
-          “how can we help?”, “what can we do to help?”, “How can we protect our
-          loved ones?”
+          In the light of COVID-19, Michele and I have been asking
+          each other “how can we help?”, “what can we do to help?”,
+          “How can we protect our loved ones?”
         </P>
         <P>
-          Hoping to keep people safe and limit the spread of COVID-19, we
-          decided to work on “Contact Tracing”. The concept is simple - if we
-          get infected, we want to be able to notify family, friends, and
-          everyone we’ve seen in the past two weeks (or even past month) as
-          quickly as possible, likewise. So everyone can act appropriately,
-          either get tested or stay isolated.
+          Hoping to keep people safe and limit the spread of COVID-19,
+          we decided to work on “Contact Tracing”. The concept is
+          simple - if we get infected, we want to be able to notify
+          family, friends, and everyone we’ve seen in the past two
+          weeks (or even past month) as quickly as possible, likewise.
+          So everyone can act appropriately, either get tested or stay
+          isolated.
         </P>
         <P>
-          It all started in our 35sqm flat in London - our weekend hack (which
-          has already taken weekends and weekdays).
+          It all started in our 35sqm flat in London - our weekend
+          hack (which has already taken weekends and weekdays).
         </P>
         <Heading as="h3" mt={12} mb={4} size="md">
           Our aims
@@ -269,8 +275,8 @@ const IndexPage: React.FunctionComponent<PageProps> = () => {
           Cloud providers
         </Heading>
         <P>
-          These guys helped us out by giving us free credits to build on their
-          infrastructure:
+          These guys helped us out by giving us free credits to build
+          on their infrastructure:
         </P>
         <List styleType="disc">
           <ListItem>Neo4j</ListItem>
